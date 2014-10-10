@@ -35,6 +35,7 @@ shinyUI(pageWithSidebar(
     ),
         
     mainPanel(
+        includeMarkdown("help.md"),
         h3("Your relationship rating"),
         h4(textOutput("rating"))
     )
