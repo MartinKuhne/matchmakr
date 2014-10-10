@@ -4,6 +4,7 @@
 # cf. https://class.crunAoursera.org/devdataprod-006/
 
 library(shiny)
+library(markdown)
 
 ratings <- c("Boring", "Harmonious", "Invigorating", "Exciting", "Tumultuous", "Explosive", "Disastrous")
 
